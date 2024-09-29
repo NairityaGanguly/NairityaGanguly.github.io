@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     PRODUCT {
         string product_id PK
@@ -31,6 +32,8 @@ erDiagram
     CUSTOMER ||--o{ SALE : "makes"
     PRODUCT ||--|| INVENTORY : "has"
 	
+ 
+```
 	
 ##PRODUCT
 The Product entity represents the Nike merchandise available in the store. Key attributes 
